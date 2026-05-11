@@ -1,124 +1,136 @@
-# 🛰️ OSINT-Prospective — Analyste en renseignement stratégique
+# OSINT Prospective — Analyste en renseignement stratégique
 
-> **Skill d'analyse OSINT en prospective événementielle**, fondé sur les méthodes scientifiques du renseignement, l'analyse des signaux faibles, et la lecture symbolique/fractale des récits collectifs.
-
----
-
-## 🎯 Objet
-
-Ce skill installe un **analyste en renseignement stratégique** spécialisé dans la **prospective événementielle à partir de sources ouvertes** — principalement la presse, mais aussi documents officiels, données ouvertes, réseaux sociaux, rapports académiques.
-
-Sa fonction n'est pas de prédire le futur, mais d'**éclairer les chemins qui y mènent** : repérer ce qui se prépare, ce qui se déplace, ce qui se tait, ce qui se répète.
-
-### Cas d'usage typiques
-
-- Détecter des dynamiques émergentes (politiques, sociales, économiques, sécuritaires) dans un flux médiatique.
-- Construire des scénarios prospectifs structurés sur un sujet donné.
-- Cartographier les acteurs, leurs intentions, leurs vulnérabilités, leurs perceptions.
-- Identifier des signaux faibles : anomalies, dissonances, glissements lexicaux, motifs récurrents.
-- Produire des notes opérationnelles (tactiques) ou des évaluations stratégiques (long terme).
-- Lire un événement isolé comme la **manifestation locale** d'une dynamique plus large (lecture fractale).
+> **Skill Claude** dédié à l'analyse prospective d'événements à partir de sources ouvertes (presse, OSINT structurée), combinant méthode scientifique, détection de signaux faibles et lecture symbolique/fractale.
 
 ---
 
-## 🧠 Approche
+## 🎯 Finalité
 
-Le skill combine **trois couches d'analyse** que la plupart des cadres analytiques traitent séparément :
+Ce skill installe sur Claude une posture d'**analyste en renseignement stratégique**, spécialisé en **prospective événementielle**. Il permet de :
 
-| Couche | Source d'inspiration | Apport |
-|---|---|---|
-| **1. Méthode scientifique** | Méthodologie classique du renseignement (cycle, hypothèses, mesure, scénarios, risque, biais) | Rigueur, défensibilité, reproductibilité |
-| **2. Signaux faibles** | Pratique des cellules de veille et de prospective | Détecter l'émergent, l'anomalie, le sous-estimé |
-| **3. Lecture symbolique & fractale** | Analyse archétypale, narrative et structurelle | Voir les motifs cachés, les homologies, les récurrences trans-échelles |
+- **Croiser** données journalistiques, archétypes, motifs cachés et dynamiques stratégiques ;
+- **Proposer** des hypothèses sur des événements futurs — y compris non causaux mais structurellement possibles ;
+- **Détecter** l'invisible, le sous-estimé, l'angle mort médiatique ;
+- **Produire** des livrables défendables : profils, évaluations de risque, scénarios prospectifs, recommandations.
 
-L'hybridation est la spécificité du skill : un signal repéré statistiquement (couche 1) est lu comme **anomalie comportementale** (couche 2), puis interprété comme **réactivation d'un motif** (couche 3). Trois lectures du même fait — qui se valident mutuellement ou révèlent une dissonance significative.
+---
+
+## 🧭 Posture
+
+L'analyste opère avec **discipline méthodologique** et **lucidité symbolique** :
+
+| Dimension | Apport |
+|---|---|
+| **Méthode scientifique** | Hypothèses testables, traçabilité des inférences, lutte contre les biais |
+| **Signaux faibles** | Lecture des dissonances, anomalies, ruptures de ton, omissions |
+| **Lecture symbolique** | Détection des archétypes narratifs, motifs récurrents, mises en scène |
+| **Lecture fractale** | Reconnaissance de patterns qui se répliquent à différentes échelles (micro/méso/macro) |
 
 ---
 
 ## ⚙️ Méthode en 11 étapes
 
-Inspirée du cycle classique du renseignement scientifique, enrichie d'une couche symbolique :
+```
+1.  Problématisation        →  Reformuler la question en problème analytique testable
+2.  Plan de collecte        →  Cibler les sources OSINT (presse, archives, registres, imagerie)
+3.  Structuration           →  Codage thématique, chronologie, matrices, géolocalisation
+4.  Analyse multi-pivot     →  Qualitatif + quantitatif + géographique + symbolique/fractal
+5.  Hypothèses concurrentes →  Générer ≥3 hypothèses, comparer, ne jamais s'arrêter à la première
+6.  Production analytique   →  Profils de cible / évaluation tactique / évaluation stratégique
+7.  Scénarios prospectifs   →  Optimiste / Probable / Critique + indicateurs de bascule
+8.  Évaluation du risque    →  Probabilité × Impact × Vulnérabilité × Capacité adverse
+9.  Recommandations         →  Options claires, priorisées, actionnables
+10. Contrôle des biais      →  ACH, red team mentale, justification explicite
+11. Boucle de rétroaction   →  Surveillance des indicateurs, mise à jour des hypothèses
+```
 
-1. **Définition de la question** — quelle est l'incertitude à réduire ?
-2. **Plan de collecte** — quelles sources, quels axes, quels capteurs ?
-3. **Structuration des données** — codage, classification, chronologie, cartographie.
-4. **Analyse triple** — qualitative + quantitative + géographique + symbolique.
-5. **Formulation d'hypothèses concurrentes** — au moins trois, structurellement distinctes.
-6. **Production analytique** — note tactique, profil de cible, évaluation stratégique.
-7. **Scénarios prospectifs** — optimiste / probable / critique, avec indicateurs de bascule.
-8. **Évaluation du risque** — probabilité × impact, menace × vulnérabilité.
-9. **Recommandations actionnables** — options claires, priorités, signaux à surveiller.
-10. **Contrôle des biais** — ACH, devil's advocacy, lecture symbolique inversée.
-11. **Boucle de rétroaction** — mise à jour des hypothèses à mesure que de nouveaux signaux arrivent.
-
-> Détail opérationnel : voir [`references/methodologie-11-etapes.md`](references/methodologie-11-etapes.md).
-
----
-
-## 📐 Posture analytique
-
-L'analyste qui opère ce skill applique cinq principes intangibles :
-
-1. **Le renseignement n'est pas une intuition** — c'est une méthode défendable, traçable, reproductible.
-2. **Plusieurs hypothèses concurrentes** — jamais une seule, jamais celle qui flatte.
-3. **Triangulation systématique** — un fait n'a de poids que croisé.
-4. **L'invisible compte autant que le visible** — ce qui n'est pas dit, ce qui est évité, ce qui se déplace.
-5. **L'analyste est son propre premier ennemi** — biais de confirmation, ancrage, effet miroir, pensée de groupe.
+Chaque étape est documentée dans `references/`.
 
 ---
 
-## 🗂️ Architecture du skill
+## 🚀 Déclenchement
+
+Le skill s'active automatiquement quand l'utilisateur :
+
+- demande une **analyse prospective** d'un événement, d'une crise, d'une dynamique géopolitique, économique, politique ou criminelle ;
+- présente un **corpus de presse** ou un dossier OSINT à analyser ;
+- évoque des **signaux faibles**, des **anomalies**, des **patterns** à interpréter ;
+- demande des **scénarios** sur un futur possible ;
+- veut **profiler** un acteur (individu, organisation, État, groupe) à partir de sources ouvertes ;
+- formule une question du type *« que peut-il se passer ensuite ? »*, *« qu'est-ce qui se prépare ? »*, *« quel est l'angle mort ici ? »*.
+
+---
+
+## 📁 Structure du dépôt
 
 ```
 osint-prospective/
-├── README.md                              # Ce fichier
-├── SKILL.md                                # Workflow opérationnel chargé par Claude
+├── README.md                    ← ce fichier
+├── SKILL.md                     ← le skill opérationnel (avec YAML frontmatter)
 └── references/
-    ├── methodologie-11-etapes.md          # Détail des 11 étapes
-    ├── signaux-faibles.md                 # Détection : dissonances, anomalies, glissements
-    ├── lecture-symbolique-fractale.md     # Archétypes, motifs, homologies trans-échelles
-    ├── scenarios-prospectifs.md           # Construction des 3 scénarios + bascules
-    ├── biais-cognitifs.md                 # Inventaire + contre-mesures (ACH, red team)
-    ├── matrice-risque.md                  # Probabilité × impact, formats matrices
-    └── format-rapport.md                  # Templates : note tactique, profil, brief stratégique
+    ├── 01-problematisation.md
+    ├── 02-collecte-osint.md
+    ├── 03-structuration.md
+    ├── 04-analyse-multi-pivot.md
+    ├── 05-hypotheses-concurrentes.md
+    ├── 06-production-analytique.md
+    ├── 07-scenarios-prospectifs.md
+    ├── 08-evaluation-risque.md
+    ├── 09-recommandations.md
+    ├── 10-controle-biais.md
+    ├── 11-boucle-retroaction.md
+    ├── archetypes-fractals.md   ← lecture symbolique et patterns récursifs
+    └── format-livrable.md       ← templates des produits finaux
 ```
 
----
-
-## 🚦 Quand le skill se déclenche
-
-Ce skill s'active lorsque l'utilisateur :
-
-- demande une analyse OSINT, une veille, une lecture stratégique d'un dossier ;
-- évoque la prospective, l'anticipation, les scénarios, les signaux faibles ;
-- soumet un corpus de presse, des dépêches, des documents publics à analyser ;
-- pose une question du type *« qu'est-ce qui se prépare ? »*, *« que faut-il surveiller ? »*, *« que dit ce silence ? »* ;
-- demande à cartographier des acteurs, des dynamiques, des récits dominants ;
-- veut détecter l'invisible, le sous-estimé, le motif caché derrière un événement.
+Claude charge `SKILL.md` à l'activation, puis lit les fichiers `references/` selon les besoins.
 
 ---
 
-## 🛡️ Cadre éthique & limites
+## 📦 Installation
 
-- L'analyse opère **uniquement sur sources ouvertes** (OSINT). Aucune méthode intrusive, aucune simulation d'accès à des données protégées.
-- Les hypothèses sont toujours présentées comme telles — **jamais comme des vérités**.
-- Les scénarios n'engagent que leur structure logique ; le futur reste ouvert.
-- Le skill ne se substitue pas à un service de renseignement opérationnel, à un conseil juridique, ou à une évaluation de menace formelle.
-- Aucune cible nommée ne fait l'objet d'une recommandation d'action — seulement de surveillance analytique.
+### Sur Claude.ai (skill personnel)
 
----
+1. Téléchargez le dossier ou le `.skill` packagé.
+2. Importez-le dans **Settings → Skills**.
+3. Le skill se déclenche automatiquement sur les requêtes pertinentes.
 
-## 🧭 Citation interne / externe
+### Sur Claude Code / API
 
-La méthodologie scientifique du skill puise dans le corpus académique du renseignement analytique. **La documentation source est conservée en interne** : l'analyste ne cite pas ses références dans ses livrables, sauf demande explicite de l'utilisateur. Cette discrétion est cohérente avec la pratique professionnelle : un analyste produit un jugement, pas une bibliographie.
+Placez le dossier dans le répertoire de skills accessible à votre instance Claude.
 
 ---
 
-## 📝 Licence et usage
+## ⚖️ Principes éthiques
 
-Skill destiné à l'analyse, la veille, la pédagogie et la prospective.
-Toute utilisation à des fins de manipulation, désinformation, surveillance illégale ou ciblage personnel est explicitement exclue.
+L'analyste opère dans un cadre **OSINT légal** :
+
+- Sources publiquement accessibles uniquement ;
+- Pas d'incitation à la collecte clandestine ou illégale ;
+- Pas de profilage nominatif intrusif sur des personnes privées ;
+- Identification explicite des **niveaux d'incertitude** et des **gaps d'information** ;
+- Production de **livrables défendables** : chaque inférence est traçable.
 
 ---
 
-*« La mission de l'analyste n'est pas de deviner le futur, mais d'éclairer les chemins qui y mènent. »*
+## 🧠 Philosophie de fond
+
+> *La mission de l'analyste n'est pas de deviner le futur, mais d'éclairer les chemins qui y mènent.*
+
+Le skill ne prédit pas. Il **structure l'incertitude**, **expose les hypothèses concurrentes** et **rend visibles les signaux faibles** que la couverture médiatique standard ignore ou sous-pondère.
+
+---
+
+## 📜 Licence
+
+À définir par l'auteur du dépôt (MIT, CC-BY, GPL, etc.).
+
+---
+
+## ✍️ Contribuer
+
+Les contributions sont bienvenues :
+- enrichissement du répertoire d'archétypes (`references/archetypes-fractals.md`) ;
+- nouveaux templates de livrables ;
+- cas d'étude documentés ;
+- amélioration des méthodes de détection de signaux faibles.
