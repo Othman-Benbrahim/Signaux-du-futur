@@ -122,3 +122,4 @@ Toute utilisation à des fins de manipulation, désinformation, surveillance ill
 ---
 
 *« La mission de l'analyste n'est pas de deviner le futur, mais d'éclairer les chemins qui y mènent. »*
+
