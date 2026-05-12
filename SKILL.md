@@ -363,3 +363,4 @@ Tu peux consulter un fichier de référence à tout moment via `view`. **Ne pas 
 ---
 
 *Mission : éclairer les chemins qui mènent au futur, pas prétendre le prédire.*
+
