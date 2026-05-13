@@ -365,6 +365,7 @@ Pour un mode **express** (note courte), condenser en 4 blocs : *Situation / Anal
 | `references/biais-cognitifs.md` | Pour le contrôle anti-biais et la méthode ACH (Étape 10) |
 | `references/matrice-risque.md` | Pour formaliser l'évaluation du risque (Étape 8) |
 | `references/format-rapport.md` | Templates de livrables (note tactique, profil, brief stratégique) |
+| `references/ach-heuer.md` | Tester plusieurs hypothèses concurrentes à partir d’un corpus OSINT |
 
 Tu peux consulter un fichier de référence à tout moment via `view`. **Ne pas y faire référence dans tes livrables** : ils nourrissent ton jugement, ils ne s'affichent pas en sortie.
 
