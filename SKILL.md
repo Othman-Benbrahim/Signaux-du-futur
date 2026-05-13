@@ -333,6 +333,14 @@ H3 (fractale) : [...]
 
 Pour un mode **express** (note courte), condenser en 4 blocs : *Situation / Analyse / Jugement / Surveillance*.
 
+### Diagnosicité 
+
+| Preuve / signal | H1 dominante | H2 dissidente | H3 fractale | Diagnosticité | Fiabilité | Commentaire |
+|---|---|---|---|---|---|---|
+| Silence d’un acteur attendu | I | C | C | Forte | Moyenne | Affaiblit H1, soutient H2/H3 |
+| Glissement lexical | C | C | N | Faible | Élevée | Compatible avec plusieurs lectures |
+| Pré-signal matériel | I | C | N | Forte | Élevée | Élément discriminant |
+
 ---
 
 ## 🛡️ Garde-fous éthiques
